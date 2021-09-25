@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /*root variable for easier styles change*/
+  :root {
+    --background-color: white;
+    --primary-color: #333333;
+    --secondary-color: #ffcc00;
+    --pagegray-color: #003300;
+  }
+  
+  /*head main box design*/
+  header {
+    background-color: var(--pagegray-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /*header title design*/
+  header > h1 {
+    background-color: var(--secondary-color);
+    color: var(--pagegray-color);
+    flex: 2 20%;
+  }
+  
+  /*header nav flex when two items in box only take of 80 percent*/
+  header > .nav {
+    flex: 2 80%;
+  }
+  
+  /*header nav design*/
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 40px 0 0;
+  }
+  
+  /*header nav a elements design*/
+  .nav > a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  /* font, margin setting, and background color for body sections*/
+  body {
+    background-color: var(--background-color);
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  /*banner image flex design*/
+  .banner {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /*Changes the location of the Banner div element*/
+  .banner > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  /*sets the styling of the p element*/
+  .banner p {
+    background-color: var(--secondary-color);
+    margin: 0 70px 10px 0;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--page-grey);
+  }
+  
+  /* sets syling and location of avatar image in banner*/
+  .banner img {
+    border: 3px solid var(--secondary-color);
+    margin-left: 20px;
+  }
+  
+  /*function called for displaying flex, default flex is row but named it box-row for learning purposes*/
+  .box-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /*function called for displaying a flex with the content set to the right side of the screen*/
+  .box-row-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  /*funcation called for flex display but reversed and content set to end*/
+  .box-row-reverse-end {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+  
+  /*function called for chaning flex from row to column*/
+  .box-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*function called to justify all content to the right*/
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  /*function called to justify content even spaced within a box*/
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  /*function called to leave 0 margin left or right but space evenly in between content box*/
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  /*function called to align content in a box evenly across a center line making odd size even*/
+  .align-center {
+    align-items: center;
+  }
+  
+  #about-me {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #work {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #contact-me {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* design of the section titles on the left side of screen about me, work, contact me*/
+  .section-title {
+    color: var(--primary-color);
+    flex: 2 15%;
+    text-align: right;
+    border-right: 3px solid var(--primary-color);
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  /* changes section title to a column box*/
+  .section-title > h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* sets 0 starting margin for two worded headers with <p> element*/
+  .section-title > h2 > p {
+    margin: 0;
+  }
+  
+  /* function for section content to only take of 85% room if two items in box*/
+  .section-content {
+    flex: 2 85%;
+    margin: 10px 0;
+    padding: 10px 0;
+    color: var(--primary-color);
+  }
+  
+  /* sets margin and padding for the <p> element in the content sections not title*/
+  .section-content > p {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  /*sets the borader and margins spacing for the tiles all sizes*/
+  .tile {
+    margin: 10px;
+    border: 5px solid var(--secondary-color);
+  }
+  
+  /*links image, sets image height, and formats it look. Large tile only*/
+  .large-tile {
+    height: 500px;
+    background-image: url(../img/run-buddy.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /*sets small tile image hight, formating and flex the box to share 50% when two items contain*/
+  .small-tile {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 2 50%;
+  }
+  
+  /*links image to smaller tile*/
+  .t1 {
+    background-image: url(../img/horiseon-site.PNG);
+  }
+  
+  /*links image to smaller tile*/
+  .t2 {
+    background-image: url(../img/hotSpot.PNG);
+  }
+  
+  /*links image to smaller tile*/
+  .t3 {
+    background-image: url(../img/mustache-mustangs.PNG);
+  }
+  
+  /*links image to smaller tile*/
+  .t4 {
+    background-image: url(../img/come-soon-c.jpg);
+  }
+  
+  /* designs and formats the background box the image tags wording is in*/
+  .tile-tag {
+    background-color: var(--secondary-color);
+    align-self: flex-end;
+    margin: 0 0 20px 0;
+    padding: 10px;
+  }
+  
+  /*stles the font for the tag title*/
+  .tile-title {
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 5px 0;
+  }
+  
+  /*styles the font for the language tag*/
+  .tile-info {
+    margin: 0;
+    font-size: 10px;
+  }
+  
+  /*styles and formats the contact me content*/
+  .contact-me-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /*sets <p> element to 0 starting margin*/
+  .contact-me-content > p {
+    margin: 0;
+  }
+  
+  /* styles the color and removes html deafualt styles of the <a> element in content conatact me*/
+  .contact-me-content > a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  /*Needs code improving/added*/
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+  
+  }
+  
+  /*Needs code improving/added*/
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+  
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    /*changes header from a flex row to column*/
+    header {
+      flex-direction: column;
+    }
+  
+    /*resizes the h1 element to 100% and center*/
+    header > h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    /*changes nav from row to column, sets 100% width and center content*/
+    .nav {
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    /*currently removes avator image from banner*/
+    .banner img {
+      display: none;
+    }
+  
+    /*Centers the section titles, removes right boarder and adds bottom boarder*/
+    .section-title {
+      text-align: center;
+      border-right: none;
+      border-bottom: 3px solid var(--primary-color);
+      padding: 10px;
+      margin: 20px 0;
+    }
+  
+    /*changes sections titles from column to tow and centers them*/
+    .section-title > h2 {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    /*sets section title p elements to margin 5px*/
+    .section-title > h2 > p {
+      margin: 5px;
+    }
+  
+    /*changes from row to column*/
+    #about-me {
+      flex-direction: column;
+    }
+  
+    /*changes from row to column*/
+    #work {
+      flex-direction: column;
+    }
+  
+    /*changes from row to column*/
+    #contact-me {
+      flex-direction: column;
+    }
+    /* changes contact me content from row to column*/
+    .contact-me-content {
+      flex-direction: column;
+    }
+    /*sets the margin for the contact me content*/
+    .contact-me-content > a {
+      margin: 5px;
+    }
+  }
