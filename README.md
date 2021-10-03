@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# portfolio-react
+U of A Bootcamp Group Module 20
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Website Status
 
-## Available Scripts
+![HTML](https://img.shields.io/website-up-down-green-red/http/portfolio-react.herokuapp.com.svg)
 
-In the project directory, you can run:
+## Badge
 
-### `npm start`
+[![React JS](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=plastic)](https://shields.io/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Git Hub
 
-### `npm test`
+[![GitHub Issues Open](https://img.shields.io/github/issues/AZBDaniel/portfolio-react)](https://https://github.com/AZBDaniel/portfolio-react/issues)     [![GitHub Issues Closed](https://img.shields.io/github/issues-closed/AZBDaniel/portfolio-react.svg)](https://https://github.com/AZBDaniel/portfolio-react/issues)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![GitHub Pull Requests Open](https://img.shields.io/github/issues-pr/AZBDaniel/portfolio-react.svg)](https://github.com/AZBDaniel/portfolio-react/pulls)     [![GitHub Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/AZBDaniel/portfolio-react.svg)](https://github.com/AZBDaniel/portfolio-react/pulls)
 
-### `npm run build`
+[![GitHub Forks](https://img.shields.io/github/forks/AZBDaniel/portfolio-react.svg)](https://github.com/AZBDaniel/portfolio-react)     [![GitHub Stars](https://img.shields.io/github/stars/AZBDaniel/portfolio-react)](https://github.com/AZBDaniel/portfolio-react)     [![GitHub Watchers](https://img.shields.io/github/watchers/AZBDaniel/portfolio-react.svg)](https://github.com/AZBDaniel/portfolio-react)     [![GitHub Downloads](https://img.shields.io/github/downloads/AZBDaniel/portfolio-react/total.svg)](https://github.com/AZBDaniel/portfolio-react)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Description
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is the first react project created by myself that show cases my work as a coder as a portfolio.
 
-### `npm run eject`
+### Future Updates
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+After the complition of my final project, I plan to do a full restyle and work in items I learn from the two remaining modules to even better represent my self.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Table of Contents
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Usage](#usage)
+- [Installation](#installation)
+- [Walkthrough](#walkthrough)
+- [Languages](#languages)
+- [Tests](#tests)
+- [License](#license)
+- [Operating System](#operating-system)
+- [Credits](#credits)
+- [Questions](#questions)
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you wanted to us this as a templete, you could fork or download a zip of the code, navigate to the root directory in terminal and run npm install. After that start changing as you please to make it your own.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+- npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Walkthrough or Screenshot
 
-### Analyzing the Bundle Size
+PLACEHOLDER
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Langauges
 
-### Making a Progressive Web App
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white)     ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)     ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=plastic&logo=javascript&logoColor=black)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tests
 
-### Advanced Configuration
+NA
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Copyright (c) 2021
 
-### `npm run build` fails to minify
+## Operating System
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![macOS](https://img.shields.io/badge/iOS-000000?style=plastic&logo=ios&logoColor=white)     ![Windows](https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white)
+
+## Credits
+
+University of Arizona, Teachers, TA, and Tutors
+
+## Questions
+
+Bryan Daniel 
+
+[![GitHub AZBDaniel](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/AZBDaniel)
