@@ -1,11 +1,16 @@
-const Nav = () => {
+const Nav = ({pageRender}) => {
+
+    const handleClickEvent = (event) => {
+        pageRender(event.target.innerText)
+    }
+
     return (
         <>
             {/*Navigation Bar*/}
             <div className="nav">
-                <a href="#about-me">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#contact-me">Contact Me</a>
+                <a href="#"onClick = {handleClickEvent}>About Me</a>
+                <a href="#"onClick = {handleClickEvent}>Work</a>
+                <a href="#"onClick = {handleClickEvent}>Contact Me</a>
             </div>
         </>
     )

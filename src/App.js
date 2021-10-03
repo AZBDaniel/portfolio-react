@@ -4,8 +4,12 @@ import AboutMe from './components/AboutMe';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
+import React, {useState} from 'react';
 
 function App() {
+
+  const [pageRender, setPageRender] = useState("Work")
+
   return (
     <div>
       {/* Header*/}
@@ -13,7 +17,7 @@ function App() {
         <h1>
           Bryan Daniel
         </h1>
-<Nav />
+<Nav pageRender = {setPageRender} />
       </header>
       {/*End of Header*/}
       {/*Banner/Avatar*/}
@@ -26,9 +30,9 @@ function App() {
         </div>
       </div>
       {/* End of Banner*/}
-      <AboutMe />
-      <Work />
-      <Contact />
+      {pageRender === "About Me"?<AboutMe />:""}
+      {pageRender === "Work"?<Work />:""}
+      {pageRender === "Contact Me"?<Contact />:""}
     </div>
   );
 }
