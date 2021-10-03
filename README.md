@@ -3,7 +3,7 @@ U of A Bootcamp Group Module 20
 
 ## Website Status
 
-![HTML](https://img.shields.io/website-up-down-green-red/http/portfolio-react.herokuapp.com.svg)
+[![HTML](https://img.shields.io/website-up-down-green-red/http/mernlin-pizza.herokuapp.com.svg)](https://react-portfolio-azbdaniel.herokuapp.com/)
 
 ## Badge
 
@@ -51,7 +51,9 @@ If you wanted to us this as a templete, you could fork or download a zip of the 
 
 ## Walkthrough or Screenshot
 
-PLACEHOLDER
+![Homescreen Work](public/img/homeWork.PNG)
+![Homescreen About Me](public/img/homeAbout.PNG)
+![Homescreen Contact Me](public/img/homeContact.PNG)
 
 ## Langauges
 
