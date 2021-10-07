@@ -14,10 +14,10 @@ body {
   
   /*root variable for easier styles change*/
   :root {
-    --background-color: white;
+    --background-color: #F4A261;
     --primary-color: #333333;
-    --secondary-color: #ffcc00;
-    --pagegray-color: #003300;
+    --secondary-color: #2A9D8F;
+    --pagegray-color: #264653;
   }
   
   /*head main box design*/
