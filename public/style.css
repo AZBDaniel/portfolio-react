@@ -205,7 +205,7 @@ body {
   /*links image, sets image height, and formats it look. Large tile only*/
   .large-tile {
     height: 500px;
-    background-image: url(../img/run-buddy.PNG);
+    background-image: url(../img/mernlinPizza.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +222,7 @@ body {
   
   /*links image to smaller tile*/
   .t1 {
-    background-image: url(../img/horiseon-site.PNG);
+    background-image: url(../img/mustache-mustangs.PNG);
   }
   
   /*links image to smaller tile*/
@@ -232,12 +232,12 @@ body {
   
   /*links image to smaller tile*/
   .t3 {
-    background-image: url(../img/mustache-mustangs.PNG);
+    background-image: url(../img/come-soon-a.jpeg);
   }
   
   /*links image to smaller tile*/
   .t4 {
-    background-image: url(../img/come-soon-c.jpg);
+    background-image: url(../img/come-soon-b.jpg);
   }
   
   /* designs and formats the background box the image tags wording is in*/

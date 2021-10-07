@@ -17,7 +17,7 @@ const AboutMe = () => {
                     <p>I started working for DEI 9 years ago as a tester, during that time I went to school at ITT-Tech to get a degree in Electronic Engineering. After graduating Summa Cum Laude, I was promoted at DEI to an Engineering Tech. Two years into that position I was promoted to Test Engineer, as well as Qualification Manager. As of recently with the COVID-19 changing all schooling to virtual for certain degrees, has given me an opportunity to go back to school and learn another skill.
                     </p>
                     <p>
-                        I am currently enrolled at The University of Arizona coding boot-camp, a 6 month program that is accelerated  in teaching coding languages needed for web development front end and back end. After the compilation of the program my hope is to get a job working in the coding industry.
+                        I am currently enrolled at The University of Arizona coding boot-camp, a 6 month program that is accelerated  in teaching coding languages needed for web development front end and back end. After the compilation of the program my hope is to get a job working in the coding industry as a full stack web developer.
                     </p>
                 </div>
             </section>
