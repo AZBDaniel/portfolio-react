@@ -24,6 +24,7 @@ function App() {
       {pageRender === "Work"?<Work />:""}
       {pageRender === "About"?<About />:""}
       {pageRender === "Contact Me"?<Contact />:""}
+      <img src="src/assets/images/background.png" alt="PCB circuit board with cooper surface traces and lighter green internal"></img>
     </div>
   );
 }

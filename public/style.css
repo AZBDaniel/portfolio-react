@@ -65,10 +65,7 @@ body {
   
   /* font, margin setting, and background color for body sections*/
   body {
-    background-image: url("https://i.morioh.com/200630/7055e259.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--background-color);
+    background-image: url(/public/img/background.png);
     margin: 0;
     font-family: sans-serif;
   }
