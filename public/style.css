@@ -16,8 +16,9 @@ body {
   :root {
     --background-color: #F4A261;
     --primary-color: #333333;
-    --secondary-color: #2A9D8F;
-    --pagegray-color: #264653;
+    --secondary-color: #0649c2;
+    --pagegray-color: #868686;
+    --litefont-color: #FAFAFA;
   }
   
   /*head main box design*/
@@ -33,7 +34,11 @@ body {
   header > h1 {
     background-color: var(--secondary-color);
     color: var(--pagegray-color);
-    flex: 2 20%;
+    margin-left: 10px;
+    flex: 2 8%;
+    padding-left: 30px;
+    border-radius: 5px;
+    color: var(--litefont-color);
   }
   
   /*header nav flex when two items in box only take of 80 percent*/
@@ -70,7 +75,7 @@ body {
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

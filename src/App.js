@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import AboutMe from './components/AboutMe';
+import Home from './components/Home';
 import Work from './components/Work';
+import About from './components/About';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import React, {useState} from 'react';
 
 function App() {
 
-  const [pageRender, setPageRender] = useState("Work")
+  const [pageRender, setPageRender] = useState("Home")
 
   return (
     <div>
@@ -20,18 +20,9 @@ function App() {
 <Nav pageRender = {setPageRender} />
       </header>
       {/*End of Header*/}
-      {/*Banner/Avatar*/}
-      <div className="banner">
-        <img src="/img/avatar.jpg" />
-        <div>
-          <p>
-            Portfolio
-          </p>
-        </div>
-      </div>
-      {/* End of Banner*/}
-      {pageRender === "About Me"?<AboutMe />:""}
+      {pageRender === "Home"?<Home />:""}
       {pageRender === "Work"?<Work />:""}
+      {pageRender === "About"?<About />:""}
       {pageRender === "Contact Me"?<Contact />:""}
     </div>
   );
