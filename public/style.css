@@ -14,16 +14,16 @@ body {
   
   /*root variable for easier styles change*/
   :root {
-    --background-color: #F4A261;
-    --primary-color: #333333;
-    --secondary-color: #0649c2;
+    --background-color: #EBECF9;
+    --primary-color: #323B34;
+    --secondary-color: #014EB2;
     --pagegray-color: #868686;
     --litefont-color: #FAFAFA;
   }
   
   /*head main box design*/
   header {
-    background-color: var(--pagegray-color);
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,6 +65,9 @@ body {
   
   /* font, margin setting, and background color for body sections*/
   body {
+    background-image: url("https://i.morioh.com/200630/7055e259.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--background-color);
     margin: 0;
     font-family: sans-serif;

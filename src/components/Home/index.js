@@ -4,11 +4,7 @@ const Home = () => {
             {/*Home Page*/}
             <section id="home-page" className="box-row">
                 <div className="section-title">
-                    {/*Side Header*/}
-                    <h2>
-                        <p>Contact</p>
-                        <p>Me</p>
-                    </h2>
+                    {/*<img src="" alt="">perfessional headshot Bryan Daniel</img>*/}
                 </div>
                 <div className="section-content contact-me-content">
                     <p>(480) 747-8245</p>
